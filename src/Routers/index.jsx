@@ -4,9 +4,9 @@ import RedirectPage from "../Pages";
 
 const Rotas = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       <Routes>
-        <Route path="/" element={<RedirectPage />} />
+        <Route path="*" element={<RedirectPage />} />
       </Routes>
     </BrowserRouter>
   );
