@@ -4,8 +4,6 @@ import { useLocation } from "react-router-dom";
 const RedirectPage = () => {
   const { pathname } = useLocation();
 
-  console.log({ pathname })
-
   const links = [
     "https://www.youtube.com/",
     "https://www.clickbank.com/",
@@ -21,19 +19,19 @@ const RedirectPage = () => {
   const redirectRender = () => {
     switch (pathname) {
       case "/youtube":
-        // window.location.href = "https://www.youtube.com/";
+        window.location.href = "https://www.youtube.com/";
         break;
 
       case "/clickbank":
-        // window.location.href = "https://www.clickbank.com/";
+        window.location.href = "https://www.clickbank.com/";
         break;
 
       case "/intagram":
-        // window.location.href = "https://www.instagram.com/";
+        window.location.href = "https://www.instagram.com/";
         break;
 
       default:
-        // window.location.href = linkAleatorio(links);
+        window.location.href = linkAleatorio(links);
         break;
     }
   };
