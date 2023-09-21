@@ -4,6 +4,8 @@ import { useLocation } from "react-router-dom";
 const RedirectPage = () => {
   const { pathname } = useLocation();
 
+  console.log({ pathname })
+
   const links = [
     "https://www.youtube.com/",
     "https://www.clickbank.com/",
