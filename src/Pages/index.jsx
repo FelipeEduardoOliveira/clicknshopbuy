@@ -17,7 +17,7 @@ const RedirectPage = () => {
   const redirectRender = () => {
     switch (pathname) {
       case "/endopump":
-        window.location.href = "https://www.youtube.com/";
+        window.location.href = "https://14e31jjjq5s-xhd4wczb4a3w7s.hop.clickbank.net/?tid=wallacepsa";
         break;
 
       default:
