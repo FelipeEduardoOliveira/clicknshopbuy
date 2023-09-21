@@ -5,9 +5,7 @@ const RedirectPage = () => {
   const { pathname } = useLocation();
 
   const links = [
-    "https://www.youtube.com/",
-    "https://www.clickbank.com/",
-    "https://www.instagram.com/",
+    "https://14e31jjjq5s-xhd4wczb4a3w7s.hop.clickbank.net/?tid=wallacepsa",
   ];
 
   function linkAleatorio(arr) {
@@ -18,16 +16,8 @@ const RedirectPage = () => {
 
   const redirectRender = () => {
     switch (pathname) {
-      case "/youtube":
+      case "/endopump":
         window.location.href = "https://www.youtube.com/";
-        break;
-
-      case "/clickbank":
-        window.location.href = "https://www.clickbank.com/";
-        break;
-
-      case "/intagram":
-        window.location.href = "https://www.instagram.com/";
         break;
 
       default:
