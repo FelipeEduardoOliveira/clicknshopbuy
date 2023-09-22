@@ -44,7 +44,7 @@ const RedirectPage = () => {
               At Any Age
             </h1>
           </div>
-          <div style={{ maxWidth: '400px' }}>
+          <div style={{ maxWidth: '400px', paddingBottom: '40px'}}>
             <button class="button-27" role="button" onClick={() => redirectRender()}>Buy now</button>
           </div>
 
