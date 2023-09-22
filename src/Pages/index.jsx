@@ -49,7 +49,23 @@ const RedirectPage = () => {
           </div>
 
         </div>
+
+
       </section>
+      <div className="Attetion">
+        <h2 >
+          ATTENTION: This New Discovery Could Help Support
+          Your Virility And Stamina, Naturally...
+        </h2>
+      </div>
+
+      <div className="letter">
+        <p>Thanks to the latest research from top Ivy League schools, it’s now possible to “flip a switch” inside your body, and support a healthy libido, stamina, and virility — naturally.<sup class="superCit">4,5,6</sup></p>
+        <p>The switch is a little-known organ (called the “endothelium”) that, when activated, can support your body’s natural flow of nitric oxide. As you may know, nitric oxide is the essential missing piece when it comes to a healthy libido.<sup class="superCit">7</sup></p>
+        <p>Unfortunately, as men get older, this organ becomes weak and has a tough time pumping blood through blood vessels. Not only can this impact never, joint, and prostate health, but it can also impact performance, stamina, and virility — which can tank a man’s self confidence.<sup class="superCit">8,9,10</sup></p>
+        <p>Fortunately, there’s a way to support this organ health at any age.</p>
+
+      </div>
     </div>
   );
 };
