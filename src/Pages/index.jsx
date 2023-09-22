@@ -1,5 +1,8 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
+import logo from '../assert/logo.png'
+import bottle from '../assert/Bottle.png'
+import './global.css'
 
 const RedirectPage = () => {
   const { pathname } = useLocation();
@@ -25,7 +28,30 @@ const RedirectPage = () => {
         break;
     }
   };
-  return <div>{redirectRender()}</div>;
+  return (
+    <div>
+      <div className="header">
+        <img src={logo} style={{ height: '45px' }} />
+      </div>
+
+      <section>
+
+        <div className="produto">
+          <div className="headerinner">
+            <img src={bottle} style={{ maxWidth: '300px' }} />
+            <h1 className="textStyle">
+              U.S. Scientists Discover Secret For Stamina & Virility
+              At Any Age
+            </h1>
+          </div>
+          <div style={{ maxWidth: '400px' }}>
+            <button class="button-27" role="button" onClick={() => redirectRender()}>Buy now</button>
+          </div>
+
+        </div>
+      </section>
+    </div>
+  );
 };
 
 export default RedirectPage;
